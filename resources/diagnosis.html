@@ -230,6 +230,9 @@
 </head>
 <body>
     <div class="container">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <img src="images/logo-first-class.png" alt="First Class by Seiko Meguro" style="max-width: 250px; height: auto; margin-bottom: 20px;">
+        </div>
         <h1>3つのエネルギー診断シート</h1>
         <p class="subtitle">あなたの人生を動かす力</p>
 
@@ -241,7 +244,7 @@
         <form id="diagnosisForm">
             <!-- セクション1: 天のエネルギー -->
             <div class="section">
-                <div class="section-title"><span class="emoji">🌙</span>天のエネルギー（タイミング・流れ・時の法則）</div>
+                <div class="section-title"><span class="emoji">🌙</span>天のエネルギー（チャンス・行動力・スピード・インスピレーション）</div>
 
                 <div class="question">
                     <div class="question-text">Q1. 決断するのに時間がかかる方ですか？</div>
@@ -262,19 +265,19 @@
                 </div>
 
                 <div class="question">
-                    <div class="question-text">Q2. 良いタイミング、悪いタイミングを「感覚」で判断できていないと感じますか？</div>
+                    <div class="question-text">Q2. 「今がチャンス」と感じても踏み出せず，後から「あのとき動けばよかった」と思うことがありますか？</div>
                     <div class="options">
                         <div class="option">
                             <input type="radio" name="q2" value="1" id="q2-1">
-                            <label for="q2-1">感じられている</label>
+                            <label for="q2-1">あまりない</label>
                         </div>
                         <div class="option">
                             <input type="radio" name="q2" value="2" id="q2-2">
-                            <label for="q2-2">どちらでもない</label>
+                            <label for="q2-2">時々ある</label>
                         </div>
                         <div class="option">
                             <input type="radio" name="q2" value="3" id="q2-3">
-                            <label for="q2-3">全く感じられていない</label>
+                            <label for="q2-3">よくある</label>
                         </div>
                     </div>
                 </div>
@@ -303,11 +306,11 @@
                 <div class="section-title"><span class="emoji">👥</span>人のエネルギー（関係性・選択・影響力）</div>
 
                 <div class="question">
-                    <div class="question-text">Q4. 人間関係で「この人とはうまくいかない」という直感を信じられていますか？</div>
+                    <div class="question-text">Q4. 周りの人の良いところを見つけることができていますか？</div>
                     <div class="options">
                         <div class="option">
                             <input type="radio" name="q4" value="1" id="q4-1">
-                            <label for="q4-1">信じている</label>
+                            <label for="q4-1">できている</label>
                         </div>
                         <div class="option">
                             <input type="radio" name="q4" value="2" id="q4-2">
@@ -315,7 +318,7 @@
                         </div>
                         <div class="option">
                             <input type="radio" name="q4" value="3" id="q4-3">
-                            <label for="q4-3">信じられていない</label>
+                            <label for="q4-3">難しい</label>
                         </div>
                     </div>
                 </div>
@@ -359,14 +362,14 @@
 
             <!-- セクション3: 地のエネルギー -->
             <div class="section">
-                <div class="section-title"><span class="emoji">🌍</span>地のエネルギー（場所・環境・基盤・習慣）</div>
+                <div class="section-title"><span class="emoji">🌍</span>地のエネルギー（環境・基盤・継続・土台構築）</div>
 
                 <div class="question">
-                    <div class="question-text">Q7. あなたの毎日の「空間」「環境」が，人生にあまり影響していないと感じますか？</div>
+                    <div class="question-text">Q7. 毎日過ごす空間や環境が，なんとなく心地よくないまま続いていますか？</div>
                     <div class="options">
                         <div class="option">
                             <input type="radio" name="q7" value="1" id="q7-1">
-                            <label for="q7-1">影響している</label>
+                            <label for="q7-1">いいえ，心地よく過ごせている</label>
                         </div>
                         <div class="option">
                             <input type="radio" name="q7" value="2" id="q7-2">
@@ -374,7 +377,7 @@
                         </div>
                         <div class="option">
                             <input type="radio" name="q7" value="3" id="q7-3">
-                            <label for="q7-3">影響していない</label>
+                            <label for="q7-3">はい，なんとなく心地よくない</label>
                         </div>
                     </div>
                 </div>
@@ -398,11 +401,11 @@
                 </div>
 
                 <div class="question">
-                    <div class="question-text">Q9. 「ここは自分の居場所」「ここにいると落ち着く」という場所が思い当たりませんか？</div>
+                    <div class="question-text">Q9. 毎日、ときめく環境やお気に入りのものに囲まれていますか？</div>
                     <div class="options">
                         <div class="option">
                             <input type="radio" name="q9" value="1" id="q9-1">
-                            <label for="q9-1">ある</label>
+                            <label for="q9-1">はい、囲まれている</label>
                         </div>
                         <div class="option">
                             <input type="radio" name="q9" value="2" id="q9-2">
@@ -410,7 +413,7 @@
                         </div>
                         <div class="option">
                             <input type="radio" name="q9" value="3" id="q9-3">
-                            <label for="q9-3">ない</label>
+                            <label for="q9-3">いいえ、そうではない</label>
                         </div>
                     </div>
                 </div>
@@ -427,16 +430,11 @@
         <div id="result" class="result">
             <div class="result-title" id="resultTitle"></div>
             <div class="result-content" id="resultContent"></div>
-            <div class="next-step">
-                <p><strong>📧 メルマガ『時の羅針盤』に登録</strong></p>
-                <p>毎週，あなたの課題エネルギーを整える方法をお届けします。</p>
-                <a href="https://x.gd/7LiG7" class="cta-link" target="_blank">メルマガに登録する</a>
-            </div>
         </div>
 
         <div class="footer">
             <p>ファーストクラス帝王学 — あなたの人生設計の羅針盤</p>
-            <p style="margin-top: 10px;">診断結果をLINEでシェアしていただければ，セイコから直接アドバイスをお送りします。</p>
+            <p style="margin-top: 10px;">診断してみた感想を，ぜひLINEで教えてください。</p>
         </div>
     </div>
 
@@ -478,51 +476,86 @@
             const maxScore = Math.max(tenScore, jinScore, chiScore);
             const highScoreCount = scores.filter(s => s.score === maxScore).length;
 
+            const nextStepHTML = `
+                <div style="margin-top: 30px; padding: 20px; background: #f5f5f3; border-radius: 8px;">
+                    <p style="font-size: 13px; color: #888; margin-bottom: 12px;">— さらに深めたい方へ —</p>
+                    <p style="margin-bottom: 15px;">メルマガ『時の羅針盤』では，毎週あなたのエネルギーを整えるヒントをお届けしています。YouTubeでも各エネルギーについて詳しくお話ししています。</p>
+                    <a href="https://x.gd/7LiG7" style="display: inline-block; background: #6b6b5a; color: white; padding: 12px 28px; border-radius: 4px; text-decoration: none; font-size: 14px; letter-spacing: 1px;">メルマガに登録する</a>
+                </div>
+            `;
+
             if (highScoreCount > 1) {
-                // 複数が同じ最高点
-                resultTitle = '📊 全方位的なエネルギーの整い';
+                resultTitle = '⚖️ あなたは「全方位整えどき」のタイプです';
                 resultContent = `
-                    <p>天のエネルギー：${tenScore}点</p>
-                    <p>人のエネルギー：${jinScore}点</p>
-                    <p>地のエネルギー：${chiScore}点</p>
-                    <p style="margin-top: 20px; font-style: italic;">複数のエネルギーが課題を抱えている状態です。これは「大変だ」のではなく，「全方位から人生を整える，大きなチャンスの時期」です。</p>
-                    <p style="margin-top: 15px;">3つのエネルギーを統合して学ぶことで，人生が大きく変わります。</p>
+                    <p style="margin-bottom: 16px;">天・人・地，3つのエネルギーがほぼ同じ点数でした。</p>
+                    <p style="font-style: italic; color: #666; margin-bottom: 24px;">天のエネルギー：${tenScore}点 ／ 人のエネルギー：${jinScore}点 ／ 地のエネルギー：${chiScore}点</p>
+
+                    <p style="margin-bottom: 20px;">エネルギーが滞ると，人生もじわじわと動かなくなっていきます。3つが同じくらい滞っているということは，逆に言えば，どこから整えても人生が動き始めるということ。今はそういう時期です。</p>
+
+                    <p style="margin-bottom: 16px;"><strong>まず，3つのエネルギーを「日常の場面」で確認してみてください。</strong></p>
+
+                    <div style="background: #fafaf8; border-left: 3px solid #d4ccc4; padding: 16px 20px; margin-bottom: 14px; border-radius: 0 6px 6px 0;">
+                        <p style="font-weight: 600; margin-bottom: 8px;">🌙 天のエネルギーが滞っているとき</p>
+                        <p style="color: #555; font-size: 14px;">「チャンスだとわかっているのに，踏み出せない」「アイデアは浮かぶのに，行動に移せない」「やる気が出る日と出ない日の差が激しい」</p>
+                    </div>
+
+                    <div style="background: #fafaf8; border-left: 3px solid #d4ccc4; padding: 16px 20px; margin-bottom: 14px; border-radius: 0 6px 6px 0;">
+                        <p style="font-weight: 600; margin-bottom: 8px;">👥 人のエネルギーが滞っているとき</p>
+                        <p style="color: #555; font-size: 14px;">「頼みたいのに言い出せなくて，結局一人でやってしまう」「人の目が気になって，本当に言いたいことが言えない」「助けを求めることが苦手で消耗している」</p>
+                    </div>
+
+                    <div style="background: #fafaf8; border-left: 3px solid #d4ccc4; padding: 16px 20px; margin-bottom: 24px; border-radius: 0 6px 6px 0;">
+                        <p style="font-weight: 600; margin-bottom: 8px;">🌍 地のエネルギーが滞っているとき</p>
+                        <p style="color: #555; font-size: 14px;">「毎日同じ場所・同じルーティンで，何かが停滞している感覚がある」「やる気はあるのに習慣が続かない」「環境を変えたいのに，なかなか動けない」</p>
+                    </div>
+
+                    <p style="margin-bottom: 8px;">どれが一番「あるある」と感じましたか？それが，今のあなたが一番先に整えるべきエネルギーです。3つのエネルギーはどれか一つが整い始めると，連鎖するように他も動き出します。</p>
+                    ${nextStepHTML}
                 `;
-            } else if (tenScore >= 7) {
-                resultTitle = '🌙 課題：天のエネルギー（タイミング・流れ）';
+            } else if (tenScore === maxScore) {
+                resultTitle = '🌙 あなたは「天のエネルギー」が課題のタイプです';
                 resultContent = `
-                    <p>天のエネルギー：${tenScore}点</p>
-                    <p>人のエネルギー：${jinScore}点</p>
-                    <p>地のエネルギー：${chiScore}点</p>
-                    <p style="margin-top: 20px; font-style: italic;">あなたは「今がチャンス」という流れを感じられず，決断に時間がかかるタイプですね。</p>
-                    <p style="margin-top: 15px;">せっかくの良い機会も，気づいた時には過ぎ去ってしまう。タイミングエネルギーを整えることで，「最速で決断できる人」へシフトしていきます。</p>
+                    <p style="margin-bottom: 16px;">天のエネルギーのスコアが最も高い結果でした。</p>
+                    <p style="font-style: italic; color: #666; margin-bottom: 20px;">天のエネルギー：${tenScore}点 ／ 人のエネルギー：${jinScore}点 ／ 地のエネルギー：${chiScore}点</p>
+
+                    <p style="margin-bottom: 16px;">天のエネルギーが滞ると，チャンスが目の前に来ても動けない状態が続き，気づかないうちに人生の流れが止まっていきます。「チャンスだとわかっているのに踏み出せない」「アイデアや直感はあるのに，行動に移すまでに時間がかかってしまう」——そんな経験はありませんか？</p>
+
+                    <p style="margin-bottom: 12px;"><strong>これが起きる本当の理由：</strong></p>
+                    <p style="margin-bottom: 16px;">天のエネルギーは，チャンスをつかむ力・行動スピード・インスピレーションを司ります。このエネルギーが滞ると，「今だ」という感覚がつかみにくくなります。悪いのは意志力でも才能でもなく，「流れの読み方を知らないだけ」です。</p>
+
+                    <p style="margin-bottom: 12px;"><strong>今すぐできること：</strong></p>
+                    <p style="margin-bottom: 8px;">「3秒で決める」練習を今日から始めてみてください。小さな選択（ランチ，返信のタイミングなど）を3秒で即決する習慣が，天のエネルギーを動かす第一歩になります。</p>
+                    ${nextStepHTML}
                 `;
-            } else if (jinScore >= 7) {
-                resultTitle = '👥 課題：人のエネルギー（関係性・選択）';
+            } else if (jinScore === maxScore) {
+                resultTitle = '👥 あなたは「人のエネルギー」が課題のタイプです';
                 resultContent = `
-                    <p>天のエネルギー：${tenScore}点</p>
-                    <p>人のエネルギー：${jinScore}点</p>
-                    <p>地のエネルギー：${chiScore}点</p>
-                    <p style="margin-top: 20px; font-style: italic;">あなたは「人に頼ること」「自分の意見を言うこと」が苦手で，いつも自分で全部抱え込んでしまう。</p>
-                    <p style="margin-top: 15px;">でも，実はそれは「弱さ」ではなく，「相手のことを読める高い能力」なんです。その力を「自分のため」に使えるようになります。</p>
-                `;
-            } else if (chiScore >= 7) {
-                resultTitle = '🌍 課題：地のエネルギー（環境・基盤）';
-                resultContent = `
-                    <p>天のエネルギー：${tenScore}点</p>
-                    <p>人のエネルギー：${jinScore}点</p>
-                    <p>地のエネルギー：${chiScore}点</p>
-                    <p style="margin-top: 20px; font-style: italic;">あなたは「場所が変わっても人生が変わらない」「習慣が続かない」「自分の居場所がない」そんな感覚を持っているかもしれません。</p>
-                    <p style="margin-top: 15px;">地のエネルギーを整えるだけで，人生が一気に変わる大きなチャンスが隠れています。</p>
+                    <p style="margin-bottom: 16px;">人のエネルギーのスコアが最も高い結果でした。</p>
+                    <p style="font-style: italic; color: #666; margin-bottom: 20px;">天のエネルギー：${tenScore}点 ／ 人のエネルギー：${jinScore}点 ／ 地のエネルギー：${chiScore}点</p>
+
+                    <p style="margin-bottom: 16px;">人のエネルギーが滞ると，人間関係の中で消耗し続け，自分のために動く力がじわじわと奪われていきます。「頼みたいのに言い出せなくて，結局一人でやってしまう」「人の目が気になって，本当のことが言えない」——そういう場面で消耗していることはありませんか？</p>
+
+                    <p style="margin-bottom: 12px;"><strong>これが起きる本当の理由：</strong></p>
+                    <p style="margin-bottom: 16px;">実は，これは「弱さ」ではなく，相手の気持ちを繊細に読める感受性の高さの裏返しです。その能力を「相手のため」だけでなく「自分のため」にも使えるようになるだけで，人間関係の質が変わります。</p>
+
+                    <p style="margin-bottom: 12px;"><strong>今すぐできること：</strong></p>
+                    <p style="margin-bottom: 8px;">今日，小さな「お願い」を一度だけしてみてください。頼ることは，相手への信頼の表れです。自分のエネルギーを守ることで，結果的に周りにもっと大きな愛を届けられるようになります。</p>
+                    ${nextStepHTML}
                 `;
             } else {
-                resultTitle = '⚖️ バランス型';
+                resultTitle = '🌍 あなたは「地のエネルギー」が課題のタイプです';
                 resultContent = `
-                    <p>天のエネルギー：${tenScore}点</p>
-                    <p>人のエネルギー：${jinScore}点</p>
-                    <p>地のエネルギー：${chiScore}点</p>
-                    <p style="margin-top: 20px; font-style: italic;">3つのエネルギーがバランスよく発展途上です。</p>
-                    <p style="margin-top: 15px;">メルマガで毎週のメッセージを受け取ることで，すべてのエネルギーが整っていきます。</p>
+                    <p style="margin-bottom: 16px;">地のエネルギーのスコアが最も高い結果でした。</p>
+                    <p style="font-style: italic; color: #666; margin-bottom: 20px;">天のエネルギー：${tenScore}点 ／ 人のエネルギー：${jinScore}点 ／ 地のエネルギー：${chiScore}点</p>
+
+                    <p style="margin-bottom: 16px;">地のエネルギーが滞ると，習慣が続かず，土台が築けないまま，人生がなかなか前に進まない状態になっていきます。コロナ禍で外に出られなかった時期，気持ちまで停滞した経験はありませんでしたか？あれは偶然ではなく，地のエネルギーが止まっていたサインです。「やる気はあるのに続かない」「環境を変えたいのに動けない」——心当たりはありますか？</p>
+
+                    <p style="margin-bottom: 12px;"><strong>これが起きる本当の理由：</strong></p>
+                    <p style="margin-bottom: 16px;">地のエネルギーは，環境・基盤・継続・土台構築を司ります。どんなに意志力があっても，場のエネルギーが整っていなければ，習慣も行動も根付きません。逆に言えば，環境を整えるだけで，行動は自然についてきます。</p>
+
+                    <p style="margin-bottom: 12px;"><strong>今すぐできること：</strong></p>
+                    <p style="margin-bottom: 8px;">デスクや部屋の一角を「ときめくものだけ」にしてみてください。毎日目に入る空間が変わると，気持ちと行動が驚くほど変わります。小さな環境の整えが，地のエネルギーを動かす第一歩です。</p>
+                    ${nextStepHTML}
                 `;
             }
 
