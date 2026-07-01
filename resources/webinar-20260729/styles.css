@@ -77,7 +77,19 @@ a {
   backdrop-filter: blur(14px);
 }
 
-.brand,
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  width: clamp(136px, 34vw, 188px);
+  min-width: 0;
+}
+
+.brand-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .eyebrow {
   margin: 0;
   font-size: 11px;
@@ -577,6 +589,20 @@ details p {
   aspect-ratio: 4 / 3;
 }
 
+.site-footer {
+  display: grid;
+  place-items: center;
+  padding: 38px 20px 96px;
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+
+.site-footer img {
+  width: min(230px, 64vw);
+  height: auto;
+  opacity: 0.86;
+}
+
 .sticky-cta {
   display: none;
   position: sticky;
@@ -618,6 +644,10 @@ details p {
 
   .site-header {
     padding: 14px 32px;
+  }
+
+  .brand-logo {
+    width: 190px;
   }
 
   .hero {
@@ -712,6 +742,14 @@ details p {
     flex-direction: column;
     justify-content: center;
     padding: 58px;
+  }
+
+  .site-footer {
+    padding: 54px 24px 72px;
+  }
+
+  .site-footer img {
+    width: 270px;
   }
 
   .sticky-cta {
